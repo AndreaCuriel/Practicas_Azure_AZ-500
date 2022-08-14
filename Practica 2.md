@@ -41,5 +41,16 @@
 - Nos muestra un lenguaje llamado kustum que sirve para consultas. si no se logeo, entonces suma un contador dependiendo el recuerso. para saber los intentos de no logeo. (27)
 - Entraremos a nuestra maquian virtual mediante RDP.(28)
 - Regresamos a nuestro registro que indicamos para detectar intentos fallidos de acceso en el log Analytics y le damos en ejecutar (29)
-- 
--  
+
+## Azure Sentinel
+Es nuestro sentinela, el detective de la nube (SIEM y SOAR).
+SIEM es un administador de eventos e información de seguridad. Te apila toda cuestion de seguridad de tu nube.
+SOAR da una respuesta automatizada de orquestación de seguridad. Usa la información de SIEM par actuar. como ajustes para repsonder sobre esas vulnerabilidades.
+
+Sus acciones son Recopilar, Dtectar, Respondr e Investigar.
+
+- Netramos a Azure Sentinel desde Portal Azure.(30)
+- clic en crear 
+- Para crearlo se necesita tener recuerso log Analytics (31)
+- Agregar el log Analytics deseado.
+- Entramos y vemos en información general que nos detecto Heartbeat (warnings)(32)

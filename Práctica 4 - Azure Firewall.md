@@ -53,4 +53,4 @@
 
 ### Septimo paso. Probar el Firewall, conectandonos a la maquina virtul.
 - Ir a conectarse por RDP a la maquina virtual (28)
-- No nos va permitir entrar, porque no es publico, porque no estamos dentro de las ip de DNS. Tenemos que agregar en las reglas de red la ip nuestra IP DNS. 
+- No nos va permitir entrar, porque no es publico, porque no estamos dentro de las ip de DNS. Tenemos que agregar en las reglas de red la ip nuestra IP DNS y tambien agregarla en interfaz de red.
